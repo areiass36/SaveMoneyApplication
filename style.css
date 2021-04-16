@@ -1,0 +1,177 @@
+*{
+padding: 0;
+margin: 0;
+}
+
+/*Login part*/
+
+#login
+{
+	background-color:#308F63;
+	margin: 250px auto;
+	padding:10px;
+	width: 11%;
+	height: 20%; 
+	border-radius: 10px;
+	border: solid 1px white
+}
+
+#login p
+{
+	color:white;
+	font-family: "arial";
+	padding-top: 5px;
+	font-size: 15px;
+}
+
+#login h1
+{
+	color:white;
+	font-family: "arial";
+	font-size: 30px;
+	padding-bottom: 1%;
+	text-align: center;
+}
+
+/*body*/
+
+body
+{
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+/*Header*/
+
+header
+{
+	width: 100%;
+	height: 10%;
+	top: 0;
+	left: 0;
+	background-color: #308F63;
+	position: fixed;
+}
+
+header p
+{
+	color: white;
+	text-align: center;
+	font-size: 50px;
+	font-family: "arial";
+	padding-top: 1%;
+}
+
+/*menu-icon*/
+
+.menu-icon
+{
+	position: fixed;
+	font-size:50px;
+	color: white;
+	font-weight: bold;
+	cursor: pointer;
+	transition: all.2s;
+	text-align: center;
+	padding: 5px;
+	left:0px;
+}
+
+.menu-icon:hover
+{
+	color:#308F63;
+	background-color: white;
+}
+
+/*Menu*/
+
+.menu
+{
+	height: 88%;
+	position: fixed;
+	background-color: #494D4D;
+	top: 0;
+	overflow: hidden;
+	transition: all .5s;
+}
+
+/*Principal*/
+
+#principal
+{
+	width: 200px;
+	left: -200px;
+}
+
+#principal ul
+{
+	list-style: none;
+}
+
+#principal ul li a
+{
+	display: block;
+	font-size:18px;
+	font-family: 'arial';
+	padding: 10px;
+	border-bottom: solid 1px #353939;
+	color: white;
+	text-decoration: none;
+	transition: all .5s;
+}
+
+#principal ul li a:hover
+{
+	color: white;
+	background-color: #727474;
+}
+
+#principal img
+{
+	width: 25px;
+	height: 25px;
+}
+
+/*Page part*/
+
+#page
+{
+	width: 100%;
+	text-align: center;
+	height: 100%;
+}
+
+#page p
+{
+	color: #545759;
+	font-family: "arial";
+	font-size: 15px;
+	padding-top: 5%;
+}
+
+/*Bottom part*/
+
+#bottom
+{
+	width: 100%;
+	box-shadow: 0px 0px 5px 3px #BFBFBF;
+	float: center;
+	position: fixed; 
+	padding-top: 1%;
+	padding-bottom: 1%;
+	height:2;
+	bottom: 0;
+	display: -webkit-flex;
+  	-webkit-justify-content: center;
+}
+
+#bottom a
+{
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+@media only screen and (max-device-width: 900px) 
+{
+
+}

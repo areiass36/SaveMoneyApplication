@@ -1,0 +1,87 @@
+#container-investimentos
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 6%;
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #BFBFBF;
+}
+.materias-investimentos{
+    margin-bottom: 100px;
+}
+
+.dica
+{
+    margin-top: 2%;
+    padding: 15px;
+    border-radius: 10px;
+    flex-direction: column;
+    width: 95%;
+    display: flex;
+    box-shadow: 0px 0px 5px 3px #BFBFBF;
+}
+.dica h1
+{
+    padding: 10px;
+}
+
+.dica p
+{
+    width: 100%;
+}
+
+.dica button
+{
+    border-radius: 50px;
+    width: 60px;
+    height: 60px;
+    color: #fff;
+    font-size: 20px;
+    background-color: #3399CC;
+    border: 1px solid #3399CC; 
+    float: right;
+}
+.dica button:hover
+{
+    color: #3399CC;
+    background-color: #fff;
+    border: 1px solid #3399CC;
+    transition: 0.5s;
+}
+
+@media only screen and (max-device-width: 900px) 
+{
+    #container-investimentos
+    {
+        font-size: 40px;
+    }
+    .materias-investimentos{
+        margin-bottom: 240px;
+    }
+
+    .dica
+    {
+        margin-top: 2%;
+        padding: 15px;
+        border-radius: 10px;
+        flex-direction: column;
+        width: 95%;
+        display: flex;
+        box-shadow: 0px 0px 5px 3px #BFBFBF;
+    }
+    .dica h1
+    {
+        padding: 20px;
+    }
+
+    .dica button
+    {
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+        font-size: 45px;
+    }
+}
